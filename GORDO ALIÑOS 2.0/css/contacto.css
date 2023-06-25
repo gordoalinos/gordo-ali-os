@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    background: url(/media/img/fondoaliños.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    flex-flow: column nowrap;
+}
+.form{
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+}
+.form-container{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+
+}
+.form-title{
+    text-align: center;
+    font-size: 1.9rem;
+}
+.form-text{
+    text-align: center;
+    color: #6e6e6e;
+    margin-bottom: .4em;
+}
+.form-input{
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8em 1em;
+    border: 1px solid #bababa;
+    border-radius: 0.2em;
+}
+.form-input-message{
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+
+.form-cta{
+    font-family: inherit;
+    font-size: 1rem;
+    background: #0316FF;
+    background: -webkit-linear-gradient(to right, #0316FF, #000333);
+    background: linear-gradient(to right, #000333, #0316FF);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    padding: .7em 0;
+    cursor: pointer;
+    transition: all 600ms ease;
+}
+.form-cta:hover{
+    transform: scale(1.1);
+    background: #ffd900;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .6);
+}
+.form a{
+    background: #03cf14;
+    color: white;
+    text-align: center;
+    border: 1px solid #bababa;
+    border-radius: 30px;
+    height: 50px;
+    font-size: 45px;
+    transition: all 600ms ease;
+}
+.form a:hover{
+    transform: scale(1.1);
+    background: white;
+    color: #03cf14;
+    box-shadow: 0px 0px 10px 0px #03cf14;
+}
+
+
+@media (max-width:450px){
+    .form{
+        padding: 3.5em 1em;
+    }
+}

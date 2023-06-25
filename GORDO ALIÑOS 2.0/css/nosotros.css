@@ -1,0 +1,194 @@
+.texto-padre{
+    background: url(../media/img/fondonos.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.capa-nos{
+    background: rgba(0, 0, 0, .6);
+}
+.princ{
+    min-height: 500px;
+    margin: auto;
+    max-width: 1200px;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.princ h4{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 1.6;
+}
+.princ h1{
+    font-size: 90px;
+    line-height: 1.6;
+}
+@media all and (max-width:810px){
+    .princ h4{
+        font-size: 20px;
+        
+    }
+    .princ h1{
+        font-size: 60px;
+    }
+    .menu-nos p{
+        font-size: 20px;
+    }
+}
+@media all and (max-width: 480px){
+    .princ h4{
+        font-size: 18px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .princ h1{
+        font-size: 30px;
+    }
+    .menu-nos p{
+        font-size: 18px;
+    }
+}
+.contenedor-card{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 0px;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-padre{
+    margin: 20px;
+    perspective: 1000px;
+    transition: all 600ms ease;
+}
+.card-padre:hover{
+    transform: scale(1.1);
+}
+.carta{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 600ms;
+}
+
+
+.menu-nos{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 0px;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.menu-nos p{
+    color: black;
+    font-size: 30px;
+    padding: 40px;
+    text-align: justify;
+}
+
+.info{
+    background: #08f;
+}
+.vmpu{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 0px;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#vision p{
+    color: white;
+    font-size: 30px;
+    padding: 40px;
+    text-align: justify;
+}
+#mision p{
+    color: black;
+    font-size: 30px;
+    padding: 40px;
+    text-align: justify;
+}
+#mision h1{
+    color: black;
+}
+#politica p{
+    color: white;
+    font-size: 30px;
+    padding: 40px;
+    text-align: justify;
+}
+#ubicacion p{
+    color: black;
+    font-size: 30px;
+    padding: 40px;
+    text-align: justify;
+}
+#ubicacion h1{
+    color: black;
+}
+.f iframe{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 0px;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    width: 600px;
+    height: 450px;
+}
+
+@media all and (max-width:810px){
+    
+    .menu-nos p{
+        font-size: 20px;
+    }
+    #vision p{
+        
+        font-size: 20px;
+        
+    }
+    #mision p{
+        
+        font-size: 20px;
+        
+    }
+    .f iframe{
+        width: 450px;
+        height: 300px
+    }
+}
+@media all and (max-width: 480px){
+    
+    .menu-nos p{
+        font-size: 18px;
+    }
+    #vision p{
+        
+        font-size: 18px;
+        
+    }
+    #mision p{
+        
+        font-size: 18px;
+        
+    }
+    .f iframe{
+        width: 350px;
+        height: 200px
+    }
+    
+}
